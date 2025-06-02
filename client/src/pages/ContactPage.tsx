@@ -142,7 +142,6 @@ export default function ContactPage() {
                     </a>
                   ))}
                 </div>
-</new_str>
               </div>
             </div>
           </div>
