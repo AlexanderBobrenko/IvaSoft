@@ -60,7 +60,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h4 className="font-roboto font-bold text-lg mb-1">Телефон</h4>
-                    <p className="text-gray-700">+7(978)519-74-72</p>
+                    <p className="text-gray-700">+7(978) 519-74-72</p>
                   </div>
                 </div>
                 
