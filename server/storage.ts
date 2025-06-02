@@ -25,7 +25,7 @@ import {
 import { db } from "./db";
 import { eq, and, desc, or, sql } from "drizzle-orm";
 import session from "express-session";
-import connectPg from "connect-pg-simple";
+import SQLiteStore from "connect-sqlite3";
 
 // Расширенный интерфейс хранилища для работы с пользователями и их проектами
 export interface IStorage {
@@ -80,11 +80,11 @@ export class DatabaseStorage implements IStorage {
   sessionStore: session.Store;
 
   constructor() {
-    const PostgresSessionStore = connectPg(session);
+    const SqliteStore = SQLiteStore(session);
 
-    this.sessionStore = new PostgresSessionStore({ 
-      pool: db.$client,
-      createTableIfMissing: true 
+    this.sessionStore = new SqliteStore({
+      db: 'sessions.sqlite',
+      table: 'sessions'
     });
   }
 
