@@ -50,7 +50,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h4 className="font-roboto font-bold text-lg mb-1">Адрес</h4>
-                    <p className="text-gray-700">г. Москва, ул. Технологическая, 42, офис 301</p>
+                    <p className="text-gray-700">Республика Крым, Симферополь, проспект Академика Вернадского, 4</p>
                   </div>
                 </div>
                 
@@ -60,7 +60,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h4 className="font-roboto font-bold text-lg mb-1">Телефон</h4>
-                    <p className="text-gray-700">+7 (495) 123-45-67</p>
+                    <p className="text-gray-700">+7(978)519-74-72</p>
                   </div>
                 </div>
                 
@@ -70,7 +70,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h4 className="font-roboto font-bold text-lg mb-1">Email</h4>
-                    <p className="text-gray-700">info@ivasoft.ru</p>
+                    <p className="text-gray-700">ivasoft@internet.ru</p>
                   </div>
                 </div>
                 
@@ -80,7 +80,11 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h4 className="font-roboto font-bold text-lg mb-1">Telegram</h4>
-                    <p className="text-gray-700">@ivasoft_support</p>
+                    <p className="text-gray-700">
+                      <a href="https://t.me/IvAS0ft" target="_blank" rel="noreferrer" className="hover:text-primary transition-colors">
+                        https://t.me/IvAS0ft
+                      </a>
+                    </p>
                   </div>
                 </div>
               </div>

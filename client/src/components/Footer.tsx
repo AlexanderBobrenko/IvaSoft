@@ -84,21 +84,23 @@ export default function Footer() {
           <div>
             <h3 className="font-roboto font-bold text-lg mb-4">Свяжитесь с нами</h3>
             <ul className="space-y-2 text-gray-300">
-              <li className="flex items-center">
-                <MapPin className="mr-2 text-accent h-4 w-4" /> 
-                г. Москва, ул. Технологическая, 42
+              <li className="flex items-start">
+                <MapPin className="mr-2 text-accent h-4 w-4 mt-0.5" /> 
+                <span>Республика Крым, Симферополь, проспект Академика Вернадского, 4</span>
               </li>
               <li className="flex items-center">
                 <Phone className="mr-2 text-accent h-4 w-4" /> 
-                +7 (495) 123-45-67
+                +7(978)519-74-72
               </li>
               <li className="flex items-center">
                 <Mail className="mr-2 text-accent h-4 w-4" /> 
-                info@ivasoft.ru
+                ivasoft@internet.ru
               </li>
               <li className="flex items-center">
                 <MessageSquare className="mr-2 text-accent h-4 w-4" /> 
-                @ivasoft_support
+                <a href="https://t.me/IvAS0ft" target="_blank" rel="noreferrer" className="hover:text-accent transition-colors">
+                  https://t.me/IvAS0ft
+                </a>
               </li>
             </ul>
           </div>

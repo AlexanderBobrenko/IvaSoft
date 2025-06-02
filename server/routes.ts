@@ -527,7 +527,7 @@ export async function registerRoutes(app: Express): Promise<Server> {
       try {
         await emailTransport.sendMail({
           from: process.env.EMAIL_FROM || "no-reply@ivasoft.ru",
-          to: process.env.EMAIL_TO || "info@ivasoft.ru",
+          to: process.env.EMAIL_TO || "ivasoft@internet.ru",
           subject: `Новое сообщение: ${validatedData.subject}`,
           text: `
             Имя: ${validatedData.name}
