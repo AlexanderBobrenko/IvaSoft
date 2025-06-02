@@ -171,7 +171,7 @@ npx drizzle-kit migrate
 
 ## 📞 Контакты
 
-- **Telegram**: [@your_telegram](https://t.me/your_telegram)
+- **Telegram**: [@sanqeq](https://t.me/sanqeq)
 - **VK**: [vk.com/sanqee](https://vk.com/sanqee)
 - **GitHub**: [github.com/AlexanderBobrenko](https://github.com/AlexanderBobrenko)
 
